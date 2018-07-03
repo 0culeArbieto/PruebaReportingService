@@ -1,0 +1,21 @@
+﻿
+@*<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ExpedientesReporte</title>
+</head>
+<body>
+    <div> 
+    </div>
+</body>
+</html>*@
+
+@using ReportViewerForMvc;
+@{
+    ViewBag.Title = "ExpedientesReporte";
+}
+
+@Html.ReportViewer(ViewBag.ReportViewer as Microsoft.Reporting.WebForms.ReportViewer)
+ 
